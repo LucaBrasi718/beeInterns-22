@@ -1,8 +1,7 @@
 const bird = ['П', 'т', 'и', 'ц', 'а'];
 
-for (var index = 0; index < bird.length;) {
+for (let index = 0; index < bird.length; index++) {
   setTimeout(() => {
-    console.log(bird);
-    console.log(index);
+    console.log(bird[index]);
   }, 100);
 }
